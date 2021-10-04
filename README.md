@@ -1,6 +1,6 @@
 # Game Programming 2020-2021
 
-https://www.youtube.com/watch?v=xF7VrXZqLko
+[![YouTube](http://img.youtube.com/vi/xF7VrXZqLko/0.jpg)](https://www.youtube.com/watch?v=xF7VrXZqLko)
 
 <!--
 ## Teams Links
