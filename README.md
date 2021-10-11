@@ -1,4 +1,4 @@
-# Game Programming 2020-2021
+# Game Programming 2021-2022
 
 [![YouTube](http://img.youtube.com/vi/xF7VrXZqLko/0.jpg)](https://www.youtube.com/watch?v=xF7VrXZqLko)
 
@@ -85,8 +85,8 @@ There are few things you can try (but you will probably have to read ahead and f
 # Week 1
 
 ## Lecture
-
-[![Video](http://img.youtube.com/vi/2VLaIr5Ckbs/0.jpg)](http://www.youtube.com/watch?2VLaIr5Ckbs)
+- [Introduction Slides]()
+- [eye sketch](sketches/eye.pde)
 
 ## Lab
 
