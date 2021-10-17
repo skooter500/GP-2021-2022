@@ -38,6 +38,32 @@ Resources
 - Assignment 3 - TBC 20% 
 - End of Year lab test - TBC 25%
 
+# Week 3 - Using variables and trigonometric functions
+- [Trigonometry problem set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
+
+## Lab
+### Learning Outcomes
+- Use numeric variables in a sketch
+- Use operatorts on variables
+- Use trigonometry
+- Make beautiful things
+
+A person flying a kite has released 176m of string. The string makes an angle of 27° with the ground. How high is the kite? How far away is the kite horizontally?
+
+Write a processing sketch sketch to draw and solve the problem.
+  - Solve the problem on paper first
+  - Make variables for stringLen, theta, kHeight, kDist and any other variables you need
+  - Assign the values that you know to the variables
+  - Write code to calculate the kith height and horizontal distance values
+  - Write code to draw the scenario
+
+![image](images/p28.png)
+
+You can use the function [text](https://processing.org/reference/text_.html) to print text to the screen and [nf](https://processing.org/reference/nf_.html) to format a number to a certain number of dp's. For example ```text("Price: " + nf(p, 10, 2), 10, 50)```. You can look these functions up in the Processing reference.
+
+### Part 2 - Spiral Jam
+
+Experiment with the spirals sketch and see what kind of crazy beautiful spirals you can make. Use variables for colour gradients, use different shapes etc etc.
 
 # Week 2 - Using variables
 ### Learning Outcomes
