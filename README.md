@@ -29,7 +29,7 @@ Resources
 ## Contact the lecturer
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
-* Email (subtitute): anhduong.trinh@tudublin.ie
+* Email (Senja): anhduong.trinh@tudublin.ie
 
 ## Assignments
 
@@ -38,6 +38,12 @@ Resources
 - Assignment 2 - 31st January 15%
 - Assignment 3 - TBC 20% 
 - End of Year lab test - TBC 25%
+
+# Week 4 - Conditional
+
+### Learning Outcomes
+- Learn conditional syntaxes and operators: boolean expressions, relational operators, if-else statements, logical operators
+- Use conditional programming in sketches
 
 # Week 3 - Using variables and trigonometric functions
 - [Trigonometry problem set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
