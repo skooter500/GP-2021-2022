@@ -29,6 +29,7 @@ Resources
 ## Contact the lecturer
 * Email: bryan.duggan@tudublin.ie
 * [My website & other ways to contact me](http://bryanduggan.org)
+* Email (subtitute): anhduong.trinh@tudublin.ie
 
 ## Assignments
 
