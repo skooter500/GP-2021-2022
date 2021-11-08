@@ -46,6 +46,7 @@ Resources
 - Use conditional programming in sketches
 
 ## Lab
+[Conditional operations](https://docs.google.com/document/d/1eRqL4RBA9pwyj7L8jQEhiJVpbvoIfGiP/edit?usp=sharing&ouid=113463557400115436734&rtpof=true&sd=true)
 - Task 1: Changing window colour
 - Task 2: Moving a rectangle across window
 - Task 3: A simple rollover
