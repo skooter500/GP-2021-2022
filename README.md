@@ -45,6 +45,14 @@ Resources
 - Learn conditional syntaxes and operators: boolean expressions, relational operators, if-else statements, logical operators
 - Use conditional programming in sketches
 
+## Lab
+- Task 1: Changing window colour
+- Task 2: Moving a rectangle across window
+- Task 3: A simple rollover
+- Task 4: Fading colour
+- Task 5: Moving a ball across window using Boolean variables
+- Task 6: A bouncing ball (step-by-step addition conditions)
+
 # Week 3 - Using variables and trigonometric functions
 - [Trigonometry problem set](https://1.cdn.edl.io/IDqRlI8C9dRkoqehbbdHBrcGT6m87gkCQuMKTkp0U7JvHvuG.pdf)
 
