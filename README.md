@@ -39,6 +39,22 @@ Resources
 - Assignment 3 - TBC 20% 
 - End of Year lab test - TBC 25%
 
+
+# Week 5 - Loops
+
+### Learning Outcomes
+- Using loops in programming: while loop, for loop
+- Learning nested loops
+- Creating and drawing funky sketches
+
+## Lab
+[Loops](https://docs.google.com/document/d/1R8eRS-vLJVhUp5U5irNQOG5nbvKlVaPu/edit?usp=sharing&ouid=113463557400115436734&rtpof=true&sd=true)
+(Retrieved from previous year's lab in [this link](https://github.com/skooter500/GP-2020-2021))
+- Task 1: Simple sketches
+- Task 2: Nested loops
+- Task 3: Some crazy stuff
+
+
 # Week 4 - Conditional
 
 ### Learning Outcomes
