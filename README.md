@@ -46,6 +46,7 @@ Resources
 - Using loops in programming: while loop, for loop
 - Learning nested loops
 - Creating and drawing funky sketches
+- A very good [tutorial](https://csee.bangor.ac.uk/project-rainbow/create-a-coloured-grid-in-processing/) on creating a coloured grid (by Jonathan)
 
 ## Lab
 [Loop Practice](https://docs.google.com/document/d/1R8eRS-vLJVhUp5U5irNQOG5nbvKlVaPu/edit?usp=sharing&ouid=113463557400115436734&rtpof=true&sd=true)
