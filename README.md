@@ -55,16 +55,16 @@ Here is the rainfall data recorded at the Dublin Airport over 12 months of 2010:
 |-------|--------------|
 | Jan | 45 |
 | Feb | 37 |
-| March | 55 |
-| April | 27 |
+| Mar | 55 |
+| Apr | 27 |
 | May | 38 |
-| June | 50 |
-| July | 79 |
-| August | 48 |
-| September | 104 |
-| October | 31 |
-| November | 100 |
-| December | 58 |
+| Jun | 50 |
+| Jul | 79 |
+| Aug | 48 |
+| Sep | 104 |
+| Oct | 31 |
+| Nov | 100 |
+| Dec | 58 |
 
 Create a Processing sketch and do the following:
 
