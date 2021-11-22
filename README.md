@@ -75,7 +75,7 @@ Create a Processing sketch and do the following:
 
 Now see if you can write code to generate the following graphs of the rainfall data:
 
-A bar chart:
+- A bar chart:
 
   ![Sketch](images/p37.png)
 
