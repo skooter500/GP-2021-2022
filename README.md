@@ -40,6 +40,65 @@ Resources
 - End of Year lab test - TBC 25%
 
 
+# Week 6 - Arrays
+
+### Learning Outcomes
+- Learning arrays in programming
+- Practising array operatios
+- Using loops in arrays
+
+## Lab
+
+Here is the rainfall data recorded at the Dublin Airport over 12 months of 2010:
+
+| Month | Amount in mm |
+|-------|--------------|
+| Jan | 45 |
+| Feb | 37 |
+| March | 55 |
+| April | 27 |
+| May | 38 |
+| June | 50 |
+| July | 79 |
+| August | 48 |
+| September | 104 |
+| October | 31 |
+| November | 100 |
+| December | 58 |
+
+Create a Processing sketch and do the following:
+
+- Allocate two arrays for storing the month names and the rainfall data
+- Calculate the average rainfall for that year
+- Calculate the month with the highest rainfall
+- Calculate the month with the lowest rainfall
+
+Now see if you can write code to generate the following graphs of the rainfall data:
+
+A bar chart:
+
+  ![Sketch](images/p37.png)
+
+  Start by drawing the axis, then draw the ticks and print the text, then draw the bars. You can use ```textAlign(CENTER, CENTER)``` to align the text
+  Use the HSB color space to assign different colors to each bar
+
+- A trend line:
+
+	![Sketch](images/p38.png)
+
+  This one is a bit trickier because you have to calculate the start xy and end xy for each line. Your for loop for drawing the trend lines can start at 1 instead of 0 and then you can get the previous value for the start of each line by taking rainfall[i - 1].
+
+- A pie chart 
+
+	![Sketch](images/p39.png)
+
+	You can use the the [arc function](https://processing.org/reference/arc_.html) to draw arcs and sin & cos to calculate the x and y coordinates to print the text. This one is the most challenging. Remember that a pie chart shows the proportion of each data point in the sum of all the data, so you will have to calculate the sum of all the rain fall and figure out how much each month is relative to the sum. It's best to draw the segments first and then draw the labels. Your map function might look something like this:
+
+	```Java
+	float angle = map(rainfall[i], 0, sum, 0, TWO_PI);
+	```
+
+
 # Week 5 - Loops
 
 ### Learning Outcomes
