@@ -40,6 +40,63 @@ Resources
 - End of Year lab test - TBC 25%
 
 
+# Week 7 - Functions
+
+### Learning Outcomes
+
+Learning to define and use *Functions* in Processing
+- Concept of functions in Programming
+- Defining a function
+- Arguments of a function
+- Type of a function
+
+## Lab - The Game of Life
+
+Write the method ```updateBoard```. This method should iterate over the board cell by cell using a nested for loop and apply the Game of Life rules:
+
+1. If the cell is alive (true) then if the cell has exactly 2 or 3 neighbours it survives (gets set to true), otherwise it dies (gets set to false)
+2. If the cell is dead (false) then it comes to life if it has exactly 3 neighbours, otherwise it stays dead in the next generation.
+
+This is important so please read carefully!!
+
+You have to read values from *board*, but you set values in *next*, which is a 2D array the same size as board. At the end of the method you *swap* board and next. I have left the swapping code in the method, so you don't have to write it. This is so that when you for example, kill a cell or bring a cell to life, you don't screw up the count for other cells in that generation.
+
+Again - in ```updateBoard```
+
+1. Write a nested for loop that gets the row and col for every cell
+2. Count the neighbours (use the method we wrote on Monday for this) 
+2. Check if the cell is alive, apply the rules for alive cells to next
+2. If the cell is dead, apply the rules for dead cells to next
+2. Swap board and next
+
+Your game of life should look like this if you implement the rules correctly (click the image for a video):
+
+[![YouTube](http://img.youtube.com/vi/SmH2r_ChmFY/0.jpg)](https://www.youtube.com/watch?v=SmH2r_ChmFY)
+
+Some extra things you can implement you can see in the video:
+
+- Increase size and change the size of the screen and see what effect this has on the simulation 
+- Press space to pause and resume the simulation
+- Press 1 to randomise the board again
+- Press 2 to clear the board
+- Press 3 to draw a cross shape and see how it evolves
+- Drag the mouse across the window to set cells at the mouse position to be alive.
+
+Some extra things you can implement that are not in the video
+
+- Draw a glider at the mouse position. This is starting pattern that will evolve a pattern that walks across the screen
+- Draw a Gosper Gun at the mouse position. This is a starting pattern that will spawn creatures indefinitely
+
+You can read more about these starting patterns and others in [this wikipedia article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and see examples in this video:
+
+[![YouTube](http://img.youtube.com/vi/HMYh4jKdtNU/0.jpg)](https://www.youtube.com/watch?v=HMYh4jKdtNU)
+
+If you want to learn more about cellular automata check out: 
+
+- [The Nature of Code](https://natureofcode.com/)
+- [A New Kind of Science](https://writings.stephenwolfram.com/2017/05/a-new-kind-of-science-a-15-year-view/)
+
+
 # Week 6 - Arrays
 
 ### Learning Outcomes
