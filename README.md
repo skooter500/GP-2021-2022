@@ -40,6 +40,10 @@ Resources
 - End of Year lab test - TBC 25%
 
 
+# Week 8 - Lab Test 1
+[Link to Lab Test 1](https://github.com/skooter500/GP-2021-2022/blob/master/Lab_Test_1.md)
+
+
 # Week 7 - Functions
 
 ### Learning Outcomes
