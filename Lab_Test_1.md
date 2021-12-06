@@ -16,7 +16,7 @@ Welcome to YOUR 1ST GAME CREATION
 ## Instructions
 Please follow the instructions and you will have a perfect game to play after the test.
 
-- Define 2 standard functions ```setup()``` and ```void()```. In function ```setup()``` set the size of screen to ```(300,200)```. In function ```draw()``` set the background to white.
+- Define 2 standard functions ```setup()``` and ```draw()```. In function ```setup()``` set the size of screen to ```(300,200)```. In function ```draw()``` set the background to white.
 
 - In order to draw a grid for the game, you need to define the fixed cell_size and the number of rows/columns of the grid. Now, create 3 global variables accordingly.
 
