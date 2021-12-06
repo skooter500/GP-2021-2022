@@ -36,7 +36,7 @@ After that initialise variable ```rows``` and ```cols``` in function ```setup()`
   }
 ```
 
-Pay attention to the use of function ```change_coordination(i)``` and ```change_coordination(j)```, that converts column i-th and row j-th to coordination (x, y) of the cell. You need to write this function, that we pass the value of i or j, it returns the value of x and y. The body of this function is simple (provided below), but you need to figure how to define it.
+Pay attention to the use of function ```change_coordination(i)``` and ```change_coordination(j)```, that converts column i-th and row j-th to coordination (x, y) of the cell. You need to write this function, that we pass the value of i or j, it returns the value of x and y. The body of this function is simple (provided below), but you need to figure how to define the function itself.
 ```
   return i * cell_size;
 ```
@@ -58,16 +58,16 @@ In the result the grid should look like this:
 
 Hint: use 1 for loop to initialise the elements of 2 arrays ```snake_col``` and ```snake_row```
 
-- Now you guess it right. You need to create a function to draw the snake and call it in the main function ```draw()```. When you do it correctly, it shows as the above picture. For simplicity when drawing the snake, let's say its head is the last element in the arrays. Remember the array index always starts from 0.
+- Now you guess it right. You need to create a function to draw the snake and call it in the main function ```draw()```. When you do it correctly, it shows as the above picture. For simplicity when drawing the snake, let's say its head is the last element in the arrays.
 ```
-  // Draw the snake's body with black colour. Use a for loop.
+  // Draw the snake's body with black colour.
   fill(...);
   stroke(200);
   for (int i = 0; ...; ...) {
     rect(..., ..., ..., ...);
   }
   
-  // Draw the snake's head with red colour. Guess what's the index of the snake's head here.
+  // Draw the snake's head with red colour.
   fill(...);
   stroke(200);
   rect(..., ..., ..., ...);
@@ -145,7 +145,7 @@ void keyPressed() {
 | Feature | Mark |
 |---------|------|
 | Define all variables | 10 |
-| Variable initilisation | 10 |
+| Variable initialisation | 10 |
 | Draw the snake | 15 |
 | Moving the snake | 15 |
 | Explaining the control code block | 10 |
