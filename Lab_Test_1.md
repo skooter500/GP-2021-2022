@@ -9,7 +9,7 @@ Welcome to YOUR 1ST GAME CREATION
 - Remember to save your work often!
 - Put a comment at the top of your sketch with your name and student number
 - Put comments in your code to explain what is happening
-- Submit your sketch to BrightSpace when you are finished
+- Submit your sketch to BrightSpace when you are finished. Currently BrightSpace doesn't work. Submit your solution to the link provided in the end.
 - This is an open book test. You can use the Processing reference, my git repository and your own notes, but no use of Google/Facebook and no conferring
 
 
