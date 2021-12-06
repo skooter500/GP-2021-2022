@@ -165,7 +165,7 @@ As I promised, if you do this extra stuff, you can earn extra points for the ass
 
 Please follow the instructions:
 
-- Save your project name as StudentName_Firstname_Lastname.pde (Processing will create a folder with the same name for you).
+- Save your project name as StudentNumber_Firstname_Lastname.pde (Processing will create a folder with the same name for you).
 - Upload (submit) your project folder to [THIS LINK](https://drive.google.com/drive/folders/1tR_7HSqNQIFY6Jk_J2Ln5UuLOAUz90WK?usp=sharing)
 
 Please access your own folder only, don't mess up your classmates' projects.
