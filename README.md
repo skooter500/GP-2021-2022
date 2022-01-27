@@ -39,6 +39,35 @@ Resources
 - Assignment 3 - TBC 20% 
 - End of Year lab test - TBC 25%
 
+# Semester 2
+
+## Week 1
+
+### Lab
+
+## Part 1
+Try the lerping technique on the actual audio samples. To do this:
+- Make an array of type float the same size as the audio buffer
+- Lerp each element of the array to the corresponding buffer element
+- Draw using the lerped values instead of the buffer values
+
+## Part 2 
+- Make this little ellipse whose size and speed of movement is controlled by how loud the sound it:
+
+[![YouTube](http://img.youtube.com/vi/5Twdbqxrpdg/0.jpg)](https://www.youtube.com/watch?v=5Twdbqxrpdg)
+
+## Part 3
+- See what other drawing elements - rectangles, triangles etc you can control using the average amplitude of the sound
+
+Some audio responsive stuff I have been working on recently:
+
+[![YouTube](http://img.youtube.com/vi/4Fc_OW4M5AU/0.jpg)](https://www.youtube.com/watch?v=4Fc_OW4M5AU)
+
+[![YouTube](http://img.youtube.com/vi/xF7VrXZqLko/0.jpg)](https://www.youtube.com/watch?v=xF7VrXZqLko)
+
+[![YouTube](http://img.youtube.com/vi/KNymjRyr27A/0.jpg)](https://www.youtube.com/watch?v=KNymjRyr27A)
+
+
 
 # Week 8 - Lab Test 1
 [Link to Lab Test 1](https://github.com/skooter500/GP-2021-2022/blob/master/Lab_Test_1.md)
