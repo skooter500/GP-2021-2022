@@ -1,10 +1,24 @@
 class Player
 {
   // Fields
-  float size = 50;
-  float halfSize = size / 2;
+  float size;
+  float halfSize;
   float x, y;
   float speed = 1;
+  float rotation;
+  
+  // Constructor
+  // Same name as the class
+  // No return type
+  Player(float x, float y, float size)
+  {
+    // Disambiguation
+    this.size = size;
+    halfSize = size / 2;
+    this.x = x;
+    this.y = y;
+    rotation = 0;
+  }
 
   // Methods
   void update()
@@ -13,11 +27,11 @@ class Player
     {
       if (key == 'a')
       {
-        x -= speed;
+        rotation -= 0.1f;
       }
       if (key == 'd')
       {
-        x += speed;
+        rotation += 0.1f;
       }
       if (key == 'w')
       {
@@ -32,10 +46,12 @@ class Player
 
   void render()
   {
+    translate(x,y);
+    rotate(rotation);
     stroke(255);
-    line(x, y, x - halfSize, y + halfSize);
-    line(x - halfSize, y + halfSize, x, y - halfSize);
-    line(x, y - halfSize, x + halfSize, y + halfSize);
-    line(x + halfSize, y + halfSize, x, y);
+    line(0, 0, - halfSize, halfSize);
+    line( - halfSize, halfSize, 0, - halfSize);
+    line(0, - halfSize, halfSize, halfSize);
+    line(halfSize, halfSize, 0, 0);
   }
 }
