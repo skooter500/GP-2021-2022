@@ -6,6 +6,7 @@ class Player
   float x, y;
   float speed = 1;
   float rotation;
+  float fx, fy;
   
   // Constructor
   // Same name as the class
@@ -18,11 +19,15 @@ class Player
     this.x = x;
     this.y = y;
     rotation = 0;
+    fx = 0;
+    fy = -1;
   }
 
   // Methods
   void update()
   {
+    fx = sin(rotation);
+    fy =  - cos(rotation);
     if (keyPressed)
     {
       if (key == 'a')
@@ -35,17 +40,20 @@ class Player
       }
       if (key == 'w')
       {
-        y -= speed;
+        x += fx * speed;
+        y += fy * speed;
       }
       if (key == 's')
       {
-        y += speed;
+        x -= fx * speed;
+        y -= fy * speed;
       }
     }
   }
 
   void render()
   {
+    pushMatrix();
     translate(x,y);
     rotate(rotation);
     stroke(255);
@@ -53,5 +61,6 @@ class Player
     line( - halfSize, halfSize, 0, - halfSize);
     line(0, - halfSize, halfSize, halfSize);
     line(halfSize, halfSize, 0, 0);
+    popMatrix();
   }
 }
