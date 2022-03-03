@@ -41,6 +41,15 @@ Resources
 
 # Semester 2
 
+## Week 6
+## Lab
+- [Worksheet](https://1drv.ms/w/s!Ak7y2552PWCrhft_--GKn97-v56DhA?e=X3AN9x)
+
+Make this in Processing:
+
+[![YouTube](http://img.youtube.com/vi/Nu1reFsEBrY/0.jpg)](https://youtu.be/Nu1reFsEBrY)
+
+
 ## Week 1
 
 ### Lab
