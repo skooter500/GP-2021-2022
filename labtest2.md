@@ -18,14 +18,13 @@ Tadpoles have the following characteristics:
 | length | The length of the tadpole. This is denoted by the number of segments drawn. This will range between 1 and 10. |
 | limbs | If the tadpole has limbs, these are drawn as lines either side of the segments. |
 | gender | This can be a value of m, f, h or n. m indicates male and is drawn with a line and a circle on the last segment. f indicates female and is drawn with a circle in the bottom segment. h indicates hermaphrodite and is drawn with both male and female symbols. n indicates no gender and nothing is drawn in the last segment.
-0 and 5 |
 | eyes | The number of eyes. These are drawn on stalks from the head as per the video. This will range between 0 and 9 |
- | name | The name of the tadpole. This is a sequence of between 1 and 5 words selected randomly from a list of words. |
+| name | The name of the tadpole. This is a sequence of between 1 and 5 words selected randomly from a list. |
 | color | The color of the tadpole |
 
 Pressing spacebar should randomise the values
 
-To get full marks in the test, you should use classes, transforms and add some cool extra feature.
+To get full marks in the test, you should use a class a transform and add some cool extra feature.
 
 ## Marking Scheme
 
